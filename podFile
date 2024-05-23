@@ -1,0 +1,9 @@
+platform :ios, '13.0'
+target 'ColorVisionSymbiosis' do
+
+  pod 'AFNetworking'
+  pod 'JSONModel'
+  pod 'Masonry'
+  pod 'SDWebImage'
+
+end
