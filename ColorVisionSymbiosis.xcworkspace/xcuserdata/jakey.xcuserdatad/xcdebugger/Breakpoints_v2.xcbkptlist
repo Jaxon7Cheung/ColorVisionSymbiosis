@@ -291,24 +291,24 @@
             filePath = "ColorVisionSymbiosis/ColorBlockGame/ColorGameController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "246"
-            endingLineNumber = "246"
-            landmarkName = "ColorGameController"
-            landmarkType = "3">
+            startingLineNumber = "254"
+            endingLineNumber = "254"
+            landmarkName = "-dealloc"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "37657CD6-312F-4C09-8EEF-766EEFDE4799"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ColorVisionSymbiosis/ColorBlockGame/ColorGameController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "256"
-            endingLineNumber = "256"
+            startingLineNumber = "264"
+            endingLineNumber = "264"
             landmarkName = "-viewDidDisappear:"
             landmarkType = "7">
          </BreakpointContent>
@@ -323,8 +323,8 @@
             filePath = "ColorVisionSymbiosis/ColorBlockGame/ColorGameController.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
             landmarkName = "-setTimer"
             landmarkType = "7">
          </BreakpointContent>

@@ -36,6 +36,7 @@
     [self generateColorBlocks];
     
     [self setTimer];
+//    [self.gameTimer invalidate];
 }
 
 #pragma mark 倒计时条
@@ -45,6 +46,11 @@
     self.colorGameView.progressView.progress = self.currentTime;
     self.gameTimer = [NSTimer scheduledTimerWithTimeInterval: 0.01 target: self selector: @selector(updateProgress) userInfo: nil repeats: YES];
 }
+
+//- (void)setTimerB {
+//    self.currentTime = 10.0;
+//    self.colorGameView.progressView.progress = self.currentTime;
+//}
 
 - (void)updateProgress {
     self.currentTime -= 0.01;
@@ -63,6 +69,7 @@
 - (void)resetTimer {
     [self.gameTimer invalidate];
     self.gameTimer = nil;
+//    [self setTimerB];
     [self setTimer];
 }
 
@@ -240,12 +247,13 @@
 }
 */
 
-//- (void)dealloc {
-////    [super dealloc];
-//    NSLog(@"pop色觉挑战");
-//    [self.gameTimer invalidate];
-//    self.gameTimer = nil;
-//}
+// dealloc为什么没有被调用？
+- (void)dealloc {
+//    [super dealloc];
+    NSLog(@"dealloc色觉挑战");
+    [self.gameTimer invalidate];
+    self.gameTimer = nil;
+}
 
 // 为什么当我pop掉当前页面后，计时器的事件函数仍在运作？
 - (void)viewDidDisappear:(BOOL)animated {
